@@ -8,5 +8,8 @@ import scrapy
 
 class AldiItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    product_title = scrapy.Field()
+    product_image = scrapy.Field()
+    packsize = scrapy.Field()
+    prize = scrapy.Field()
+    prize_per_unit = scrapy.Field()
