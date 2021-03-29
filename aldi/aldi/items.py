@@ -11,5 +11,5 @@ class AldiItem(scrapy.Item):
     product_title = scrapy.Field()
     product_image = scrapy.Field()
     packsize = scrapy.Field()
-    prize = scrapy.Field()
-    prize_per_unit = scrapy.Field()
+    price = scrapy.Field()
+    price_per_unit = scrapy.Field()
